@@ -15,10 +15,10 @@ const NavMenu = () => {
         </div>
       </div>
       <section className="pt-16 flex items-center justify-center">
-        <Link href={"/home"}>
+        <Link href={"/ranking"}>
           <div
             className={`w-12 h-12 border boder-[#999] flex items-center justify-center rounded-lg ${
-              currentRoute === "/home" ? "bg-[#FFE84D]" : ""
+              currentRoute === "/ranking" ? "bg-[#FFE84D]" : ""
             }
               text-[#999] `}
           >
